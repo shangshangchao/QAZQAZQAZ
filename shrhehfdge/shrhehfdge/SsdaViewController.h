@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SsdaViewController.h
 //  shrhehfdge
 //
 //  Created by lanou3g on 16/3/17.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SsdaViewController : UIViewController
 
 @end

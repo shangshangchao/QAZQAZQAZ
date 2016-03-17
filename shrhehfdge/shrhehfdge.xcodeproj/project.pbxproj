@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		C2C3083B1C9A401D000E9E85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C3083A1C9A401D000E9E85 /* main.m */; };
 		C2C3083E1C9A401D000E9E85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C3083D1C9A401D000E9E85 /* AppDelegate.m */; };
-		C2C308411C9A401D000E9E85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C308401C9A401D000E9E85 /* ViewController.m */; };
 		C2C308441C9A401D000E9E85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C308421C9A401D000E9E85 /* Main.storyboard */; };
 		C2C308461C9A401D000E9E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C308451C9A401D000E9E85 /* Assets.xcassets */; };
 		C2C308491C9A401D000E9E85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C308471C9A401D000E9E85 /* LaunchScreen.storyboard */; };
+		C2C308521C9A44E5000E9E85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C308511C9A44E5000E9E85 /* ViewController.m */; };
+		C2C308551C9A44F5000E9E85 /* SsdaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C308541C9A44F5000E9E85 /* SsdaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		C2C3083A1C9A401D000E9E85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2C3083C1C9A401D000E9E85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C2C3083D1C9A401D000E9E85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C2C3083F1C9A401D000E9E85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C2C308401C9A401D000E9E85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C2C308431C9A401D000E9E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2C308451C9A401D000E9E85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2C308481C9A401D000E9E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2C3084A1C9A401D000E9E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C308501C9A44E5000E9E85 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C2C308511C9A44E5000E9E85 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C2C308531C9A44F5000E9E85 /* SsdaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsdaViewController.h; sourceTree = "<group>"; };
+		C2C308541C9A44F5000E9E85 /* SsdaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsdaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,10 @@
 			children = (
 				C2C3083C1C9A401D000E9E85 /* AppDelegate.h */,
 				C2C3083D1C9A401D000E9E85 /* AppDelegate.m */,
-				C2C3083F1C9A401D000E9E85 /* ViewController.h */,
-				C2C308401C9A401D000E9E85 /* ViewController.m */,
+				C2C308501C9A44E5000E9E85 /* ViewController.h */,
+				C2C308511C9A44E5000E9E85 /* ViewController.m */,
+				C2C308531C9A44F5000E9E85 /* SsdaViewController.h */,
+				C2C308541C9A44F5000E9E85 /* SsdaViewController.m */,
 				C2C308421C9A401D000E9E85 /* Main.storyboard */,
 				C2C308451C9A401D000E9E85 /* Assets.xcassets */,
 				C2C308471C9A401D000E9E85 /* LaunchScreen.storyboard */,
@@ -149,7 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2C308411C9A401D000E9E85 /* ViewController.m in Sources */,
+				C2C308521C9A44E5000E9E85 /* ViewController.m in Sources */,
+				C2C308551C9A44F5000E9E85 /* SsdaViewController.m in Sources */,
 				C2C3083E1C9A401D000E9E85 /* AppDelegate.m in Sources */,
 				C2C3083B1C9A401D000E9E85 /* main.m in Sources */,
 			);

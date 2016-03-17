@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  SsdaViewController.m
 //  shrhehfdge
 //
 //  Created by lanou3g on 16/3/17.
 //  Copyright © 2016年 尚永超. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SsdaViewController.h"
 
-@interface ViewController ()
+@interface SsdaViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SsdaViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
